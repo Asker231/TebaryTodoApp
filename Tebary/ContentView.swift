@@ -6,16 +6,21 @@
 //
 
 import SwiftUI
+import FirebaseAuth
 
 struct ContentView: View {
+   // @AppStorage("uid") var userID = " "
+     @StateObject var userIdes  = AuthViewModel()
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            if userIdes.userId == " "{
+                SignInView()
+                    .environmentObject(userIdes)
+            }else{
+                MainView()
+                    .environmentObject(userIdes)
+            }
         }
-        .padding()
     }
 }
 

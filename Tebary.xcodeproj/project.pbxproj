@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		799615812A0D4454008B7B03 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799615802A0D4454008B7B03 /* DescriptionView.swift */; };
 		799FA4802A0AB58B005FD089 /* TebaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799FA47F2A0AB58B005FD089 /* TebaryApp.swift */; };
 		799FA4822A0AB58B005FD089 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799FA4812A0AB58B005FD089 /* ContentView.swift */; };
 		799FA4842A0AB58D005FD089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 799FA4832A0AB58D005FD089 /* Assets.xcassets */; };
 		799FA4872A0AB58D005FD089 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 799FA4862A0AB58D005FD089 /* Preview Assets.xcassets */; };
+		799FA48F2A0AC778005FD089 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799FA48E2A0AC778005FD089 /* SignInView.swift */; };
+		799FA4912A0AC785005FD089 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799FA4902A0AC785005FD089 /* LogInView.swift */; };
+		799FA4942A0B3291005FD089 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 799FA4932A0B3291005FD089 /* FirebaseAuth */; };
+		799FA4962A0B3291005FD089 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 799FA4952A0B3291005FD089 /* FirebaseDatabase */; };
+		799FA4982A0B3291005FD089 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 799FA4972A0B3291005FD089 /* FirebaseDatabaseSwift */; };
+		799FA49A2A0B3291005FD089 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 799FA4992A0B3291005FD089 /* FirebaseFirestore */; };
+		799FA49C2A0C4F9D005FD089 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 799FA49B2A0C4F9D005FD089 /* GoogleService-Info.plist */; };
+		799FA49F2A0D2402005FD089 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799FA49E2A0D2402005FD089 /* AuthViewModel.swift */; };
+		799FA4A12A0D30A5005FD089 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799FA4A02A0D30A5005FD089 /* HomeView.swift */; };
+		799FA4A32A0D30BC005FD089 /* TodosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799FA4A22A0D30BC005FD089 /* TodosView.swift */; };
+		799FA4A52A0D30C8005FD089 /* AddTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799FA4A42A0D30C8005FD089 /* AddTodoView.swift */; };
+		799FA4A72A0D30D8005FD089 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799FA4A62A0D30D8005FD089 /* SettingView.swift */; };
+		799FA4A92A0D30F2005FD089 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799FA4A82A0D30F2005FD089 /* MainView.swift */; };
+		799FA4AB2A0D3C2A005FD089 /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799FA4AA2A0D3C29005FD089 /* TodoViewModel.swift */; };
+		799FA4B02A0D3C56005FD089 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799FA4AF2A0D3C56005FD089 /* TodoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		799615802A0D4454008B7B03 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 		799FA47C2A0AB58B005FD089 /* Tebary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tebary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		799FA47F2A0AB58B005FD089 /* TebaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TebaryApp.swift; sourceTree = "<group>"; };
 		799FA4812A0AB58B005FD089 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		799FA4832A0AB58D005FD089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		799FA4862A0AB58D005FD089 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		799FA48E2A0AC778005FD089 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		799FA4902A0AC785005FD089 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		799FA49B2A0C4F9D005FD089 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		799FA49E2A0D2402005FD089 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		799FA4A02A0D30A5005FD089 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		799FA4A22A0D30BC005FD089 /* TodosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosView.swift; sourceTree = "<group>"; };
+		799FA4A42A0D30C8005FD089 /* AddTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoView.swift; sourceTree = "<group>"; };
+		799FA4A62A0D30D8005FD089 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		799FA4A82A0D30F2005FD089 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		799FA4AA2A0D3C29005FD089 /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
+		799FA4AF2A0D3C56005FD089 /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +54,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				799FA4982A0B3291005FD089 /* FirebaseDatabaseSwift in Frameworks */,
+				799FA49A2A0B3291005FD089 /* FirebaseFirestore in Frameworks */,
+				799FA4962A0B3291005FD089 /* FirebaseDatabase in Frameworks */,
+				799FA4942A0B3291005FD089 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +83,10 @@
 		799FA47E2A0AB58B005FD089 /* Tebary */ = {
 			isa = PBXGroup;
 			children = (
+				799FA4AC2A0D3C35005FD089 /* Model */,
+				799FA49D2A0D23F0005FD089 /* ViewModel */,
+				799FA49B2A0C4F9D005FD089 /* GoogleService-Info.plist */,
+				799FA48D2A0AC762005FD089 /* View */,
 				799FA47F2A0AB58B005FD089 /* TebaryApp.swift */,
 				799FA4812A0AB58B005FD089 /* ContentView.swift */,
 				799FA4832A0AB58D005FD089 /* Assets.xcassets */,
@@ -65,6 +101,38 @@
 				799FA4862A0AB58D005FD089 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		799FA48D2A0AC762005FD089 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				799FA48E2A0AC778005FD089 /* SignInView.swift */,
+				799FA4902A0AC785005FD089 /* LogInView.swift */,
+				799FA4A02A0D30A5005FD089 /* HomeView.swift */,
+				799FA4A22A0D30BC005FD089 /* TodosView.swift */,
+				799FA4A42A0D30C8005FD089 /* AddTodoView.swift */,
+				799FA4A62A0D30D8005FD089 /* SettingView.swift */,
+				799FA4A82A0D30F2005FD089 /* MainView.swift */,
+				799615802A0D4454008B7B03 /* DescriptionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		799FA49D2A0D23F0005FD089 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				799FA49E2A0D2402005FD089 /* AuthViewModel.swift */,
+				799FA4AA2A0D3C29005FD089 /* TodoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		799FA4AC2A0D3C35005FD089 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				799FA4AF2A0D3C56005FD089 /* TodoModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +151,12 @@
 			dependencies = (
 			);
 			name = Tebary;
+			packageProductDependencies = (
+				799FA4932A0B3291005FD089 /* FirebaseAuth */,
+				799FA4952A0B3291005FD089 /* FirebaseDatabase */,
+				799FA4972A0B3291005FD089 /* FirebaseDatabaseSwift */,
+				799FA4992A0B3291005FD089 /* FirebaseFirestore */,
+			);
 			productName = Tebary;
 			productReference = 799FA47C2A0AB58B005FD089 /* Tebary.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +185,9 @@
 				Base,
 			);
 			mainGroup = 799FA4732A0AB58B005FD089;
+			packageReferences = (
+				799FA4922A0B3291005FD089 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 799FA47D2A0AB58B005FD089 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +204,7 @@
 			files = (
 				799FA4872A0AB58D005FD089 /* Preview Assets.xcassets in Resources */,
 				799FA4842A0AB58D005FD089 /* Assets.xcassets in Resources */,
+				799FA49C2A0C4F9D005FD089 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +215,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				799FA49F2A0D2402005FD089 /* AuthViewModel.swift in Sources */,
+				799FA48F2A0AC778005FD089 /* SignInView.swift in Sources */,
+				799615812A0D4454008B7B03 /* DescriptionView.swift in Sources */,
+				799FA4A32A0D30BC005FD089 /* TodosView.swift in Sources */,
+				799FA4A92A0D30F2005FD089 /* MainView.swift in Sources */,
+				799FA4A72A0D30D8005FD089 /* SettingView.swift in Sources */,
 				799FA4822A0AB58B005FD089 /* ContentView.swift in Sources */,
+				799FA4A12A0D30A5005FD089 /* HomeView.swift in Sources */,
+				799FA4912A0AC785005FD089 /* LogInView.swift in Sources */,
+				799FA4A52A0D30C8005FD089 /* AddTodoView.swift in Sources */,
+				799FA4B02A0D3C56005FD089 /* TodoModel.swift in Sources */,
+				799FA4AB2A0D3C2A005FD089 /* TodoViewModel.swift in Sources */,
 				799FA4802A0AB58B005FD089 /* TebaryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +426,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		799FA4922A0B3291005FD089 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 10.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		799FA4932A0B3291005FD089 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 799FA4922A0B3291005FD089 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		799FA4952A0B3291005FD089 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 799FA4922A0B3291005FD089 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		799FA4972A0B3291005FD089 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 799FA4922A0B3291005FD089 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		799FA4992A0B3291005FD089 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 799FA4922A0B3291005FD089 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 799FA4742A0AB58B005FD089 /* Project object */;
 }
